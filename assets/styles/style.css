@@ -7,27 +7,60 @@
     margin: 0;
     font-weight: 400;
     }
-body {color:#86878b;
+body {
+    color:#86878b;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
+    font-size:14px;
 }
 h2 {
     color: #212121;
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
     font-size:36px;
-    }
+    text-align: center;
+    margin-bottom: 26px;
+}
 h2:after{
     content:'';
     display:block;
     width:64px;
     height:2px;
-    background: #ff8b38;
+    background-color: #ff8b38;
+    margin: 22px auto 0;
 }
-
-
+h2._left:after{
+    margin: 0;
+}
+h2._left{
+    text-align: left;
+}
+h2._white:after{
+    background-color: #ffffff;
+}
+h2._white {
+    color: #ffffff;
+}
+h3{
+    font-size: 20px;
+    font-weight: 700;
+    color: #333333;
+}
 
 .container{max-width: 1110px;
     margin: 0 auto;
-    padding: 110px 0;}
+    padding: 110px 0;
+}
+.benefit{
+    text-align: center;
+}
+.row{
+     display: flex;
+     justify-content: space-between;
+     margin: 0 -20px;
+}
+.cell{
+    padding: 0 20px;
+}
+
 
