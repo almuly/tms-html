@@ -45,7 +45,8 @@ h3{
     font-weight: 700;
     color: #333333;
 }
-
+a {text-decoration: none;
+color: #ffffff;}
 .container{
     max-width: 1110px;
     margin: 0 auto;
@@ -85,5 +86,41 @@ h3{
 .mirror{
     transform: scale(-1, 1);
 }
+.custom
+{
+    background-image: url("../images/u25_state0.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 315px;
+}
 
+
+.black{
+    background-color: rgba( 0,0,0,0.6)
+}
+.design{
+    text-align: center;
+    padding: 74px 0 60px;
+    height: 315px;
+}
+
+.design_p{
+    font-family: Raleway, sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+    opacity: 80%;
+}
+.download {
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+    width:130px;
+    height:38px;
+    border: 2px solid #ffffff;
+    margin: 37px auto 0;
+
+}
+.gradientblack{background-color: #000000;
+    height:100px;
+}
 
