@@ -15,7 +15,7 @@ body {
 h2 {
     color: #212121;
     text-transform: uppercase;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway Light', sans-serif;
     font-size:36px;
     text-align: center;
     margin-bottom: 24px;
@@ -46,7 +46,8 @@ h3{
     color: #333333;
 }
 a {text-decoration: none;
-color: #ffffff;}
+    color: #ffffff;
+}
 .container{
     max-width: 1110px;
     margin: 0 auto;
@@ -91,12 +92,15 @@ color: #ffffff;}
     background-image: url("../images/u25_state0.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    height: 315px;
+    background-size: cover;
+    height: 320px;
 }
 
 
-.black{
-    background-color: rgba( 0,0,0,0.6)
+.black {
+    background-color: rgba(0, 0, 0, 0.6);
+    height:100%;
+    width: 100%;
 }
 .design{
     text-align: center;
@@ -105,10 +109,10 @@ color: #ffffff;}
 }
 
 .design_p{
-    font-family: Raleway, sans-serif;
-    font-weight: 300;
+    font-family:'Raleway Light' , sans-serif;
     color: #ffffff;
-    opacity: 80%;
+    opacity: 60%;
+    font-size: 16px;
 }
 .download {
     display:inline-flex;
@@ -122,5 +126,38 @@ color: #ffffff;}
 }
 .gradientblack{background-color: #000000;
     height:100px;
+    background-size: cover;
 }
+.footer{
+    text-align: center;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+   }
+.footer_image{
+    font-size: 24px;
+    color:#ffffff;
+}
+.footer_image-wrap{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -9px;}
+.footer_row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 37px}
+.footer_cell{
+    display: flex;
+}
+.footer_image-wrap+.footer_image-wrap{
+    padding-left: 31px;
+    padding-bottom: 8px;
 
+
+
+}
+.footer_p{
+    color: #ffffff;
+    font-size: 12px;
+}
