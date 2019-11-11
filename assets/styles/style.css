@@ -142,7 +142,8 @@ a {text-decoration: none;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    margin-left: -9px;}
+    letter-spacing: 28px;}
+    /*margin-left: -9px;}*/
 .footer_row{
     display: flex;
     justify-content: space-between;
@@ -150,13 +151,10 @@ a {text-decoration: none;
 .footer_cell{
     display: flex;
 }
-.footer_image-wrap+.footer_image-wrap{
-    padding-left: 31px;
-    padding-bottom: 8px;
-
-
-
-}
+/*.footer_image-wrap+.footer_image-wrap{*/
+/*    padding-left: 31px;*/
+/*    padding-bottom: 8px;*/
+/*}*/
 .footer_p{
     color: #ffffff;
     font-size: 12px;
