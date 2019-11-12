@@ -110,8 +110,8 @@ a {text-decoration: none;
 
 .design_p{
     font-family:'Raleway Light' , sans-serif;
-    color: #ffffff;
-    opacity: 60%;
+    color: #86878b;
+    /*opacity: 60%;*/
     font-size: 16px;
 }
 .download {
@@ -136,7 +136,7 @@ a {text-decoration: none;
    }
 .footer_image{
     font-size: 24px;
-    color:#ffffff;
+    color:#86878b;
 }
 .footer_image-wrap{
     display: inline-flex;
@@ -156,7 +156,7 @@ a {text-decoration: none;
 /*    padding-bottom: 8px;*/
 /*}*/
 .footer_p{
-    color: #ffffff;
+    color: #86878b;
     font-size: 12px;
     padding: 9px;
 }
