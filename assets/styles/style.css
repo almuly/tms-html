@@ -166,10 +166,57 @@ a {text-decoration: none;
     background-size: cover;
 }
 ul{
-    list-style-type: none;}
-.li_black { height: 100px;
+    list-style-type: none;
+    padding-left: 0px;
+    margin-top: 18px;
+
+}
+li{ height: 40px;
+    width: 345px;
+    margin-top: 1px;
+    background-color: #ffffff;
+}
+.li_black {
+    height: 100px;
+    width: 345px;
+    border: 1px solid #ffffff;
+    background-color: #333333;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 90px;
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+
+}
+footer:after{
+    content:'Lore';
+    display: block;
+    min-height: 5px;
+    width:345px;
+    background-color: var(--primary-color);
+    margin: 31px auto 0;
+
+}
+header {
+    height: 60px;
     width: 345px;
     border: 1px solid #ffffff;
     background-color: #333333;
 }
-
+footer {
+    height: 50px;
+    width: 345px;
+    border: 1px solid #ffffff;
+    background-color: #333333;
+}
+span {font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+}
+.price_row {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0px;
+    align-items: center;
+}
