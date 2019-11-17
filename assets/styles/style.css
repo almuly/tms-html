@@ -165,58 +165,80 @@ a {text-decoration: none;
     background-color: #f5f5f5;
     background-size: cover;
 }
+.price_p{
+    margin-bottom: 80px;
+}
 ul{
     list-style-type: none;
     padding-left: 0px;
-    margin-top: 18px;
+    margin-top: 5px;
 
 }
-li{ height: 40px;
+li{
+    display: flex;
+    height: 40px;
     width: 345px;
     margin-top: 1px;
     background-color: #ffffff;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
 }
-.li_black {
+.price_black {
     height: 100px;
     width: 345px;
     border: 1px solid #ffffff;
     background-color: #333333;
     font-family: Raleway, sans-serif;
     font-weight: 700;
-    font-size: 90px;
+    font-size: 95px;
     color: #ffffff;
     align-items: center;
     justify-content: center;
 
 }
-footer:after{
-    content:'Lore';
-    display: block;
+li:first-child{
     min-height: 5px;
+    height: auto;
+    max-height: 40px;
     width:345px;
     background-color: var(--primary-color);
-    margin: 31px auto 0;
-
+    margin: -6px auto 0;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 40px;
 }
 header {
+    display: flex;
     height: 60px;
     width: 345px;
     border: 1px solid #ffffff;
     background-color: #333333;
-}
-footer {
+    font-weight: 700;
+    font-size: 20px;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+   }
+footer {display: flex;
     height: 50px;
     width: 345px;
     border: 1px solid #ffffff;
     background-color: #333333;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    justify-content: center;
+    align-items: center;
+
 }
-span {font-family: Raleway, sans-serif;
+span {font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 35px;
 }
 .price_row {
     display: flex;
     justify-content: space-between;
-    margin: 0 0px;
-    align-items: center;
+    align-items: flex-end;
+    margin: 0 -20px;
+
 }
