@@ -170,7 +170,7 @@ a {text-decoration: none;
 }
 ul{
     list-style-type: none;
-    padding-left: 0px;
+    padding-left: 0;
     margin-top: 5px;
 
 }
