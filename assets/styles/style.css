@@ -56,7 +56,9 @@ h3 {
     font-weight: 700;
     color: #333333;
 }
-
+.quote_h3{
+    padding-left: 13px;
+}
 a {
     text-decoration: none;
     color: #ffffff;
@@ -182,6 +184,7 @@ button {
     cursor: pointer;
 
 }
+
 ._outline {
     background-color: transparent;
     border-radius: 0;
@@ -246,10 +249,12 @@ button {
     color: #86878b;
     font-size: 16px;
 }
-.custom_row{
+
+.custom_row {
     display: block;
     margin-bottom: 35px;
 }
+
 .download {
     display: inline-flex;
     align-items: center;
@@ -453,6 +458,32 @@ span {
 
 }
 
+.testimonial_quote{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 130px;
+    border-radius: 1px;
+    background-color: #f5f5f5;
+    padding-left: 15px;
+    font-style: italic;
+    margin-bottom: 25px;
+}
+
+.testimonial_quote:after {
+    content:'';
+    position: relative;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 20px solid #f5f5f5;
+    top: 75px;
+    left: -225px;
+
+}
+
 .contact__row {
     margin-bottom: 45px;
 }
@@ -469,3 +500,23 @@ span {
     font-size: 14px;
 
 }
+._ident-left{
+    padding: auto 15px;
+    }
+.testimonial_image-wrap{
+    display:flex;}
+
+
+.quote__block {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 15px;
+
+}
+.quote__name {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
