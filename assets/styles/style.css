@@ -36,7 +36,8 @@ h2:after {
 }
 
 h2._left:after {
-    margin: 0;
+    margin: 40px 0 0;
+
 }
 
 h2._left {
@@ -44,10 +45,12 @@ h2._left {
 }
 
 h2._white:after {
+
     background-color: #ffffff;
 }
 
 h2._white {
+
     color: #ffffff;
 }
 
@@ -577,4 +580,21 @@ p._margin-bottom{
     background-position: center;
     background-size: cover;
     height: 640px;
+}
+.offer__axit{
+    display: flex;
+    justify-content: space-between;
+}
+.offer__axit-description {
+    padding-right: 115px;
+}
+.offer__axit-logo{
+    padding-bottom: 15px;
+}
+.offer__axit-text {
+    font-family: Raleway, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    padding-top: 16px;
+    margin-bottom: 45px;
 }
