@@ -466,14 +466,14 @@ p._margin-bottom {
 
 ul {
     list-style-type: none;
-    padding-left: 1px;
-    margin: -2px -1px 0 0;
+    padding-left: 0px;
+    margin: -1px 0 1px 0;
 }
 
 li {
     display: flex;
     height: 40px;
-    width: 345px;
+    width: 100%;
     margin-top: 1px;
     background-color: var(--secondary-color);
     text-transform: uppercase;
