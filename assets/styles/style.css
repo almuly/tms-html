@@ -43,7 +43,7 @@ h2:after {
 }
 
 h2._left:after {
-    margin: 40px 0 0;
+    margin: 40px 0;
 
 }
 
@@ -275,13 +275,20 @@ span._text-color {
     color: var(--primary-color);
     text-transform: uppercase;
 }
-
 .sign-up__field {
     width: 80%;
     font-size: 14px;
+    margin: 25px 0;
+}
+.__margin-field2 {
+    margin-top: 0;
+    margin-bottom: 40px;
+ }
+
+.__margin-field3 {
+    margin-top: 0;
     margin-bottom: 44px;
 }
-
 @keyframes slidein {
     from {
         margin-left: 100%;
@@ -309,9 +316,8 @@ button.animation {
     width: 100%;
 }
 .social {
-    display: flex;
+    position: relative;
     background-color: var(--secondary-color);
-    max-width: 100%;
     box-shadow: 0 3px 3px -1px var(--fifth-color);
 
 }
@@ -329,12 +335,14 @@ button.animation {
 }
 
 .social-wrap {
+    display: flex;
+    flex-direction: column;
     margin: 0;
 }
 
 .social__container {
-    display: flex;
-    max-width: 1110px;
+   display: flex;
+    justify-content: space-between;
     padding: 20px 0;
     margin: 0 auto;
 
@@ -354,12 +362,13 @@ button.animation {
 .social_row {
     display: flex;
     justify-content: space-between;
-    padding: 0 0 0 7px;
+    max-width: 635px;
+    align-items: center;
 
 }
 
 .social_cell {
-    padding: 10px 29px;
+    padding: 0px 25px;
 
 }
 .feature {
@@ -654,14 +663,14 @@ footer {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    letter-spacing: 28px;
+   padding: 0 12px;
 }
 
 
 .footer__row {
     display: flex;
     justify-content: space-between;
-    margin-top: 37px
+    padding:37px 0;
 }
 
 .footer__p {
