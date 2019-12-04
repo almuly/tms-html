@@ -27,7 +27,7 @@ body {
 h2 {
     color: #212121;
     text-transform: uppercase;
-    font-family: 'Raleway Light', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 35px;
     text-align: center;
     margin-bottom: 24px;
@@ -154,21 +154,17 @@ button {
 
 }
 
-.header__container-logo {
-    width: 50%;
-    margin-right: 215px;
-
-}
-
 .header__container-nav-ul {
     display: flex;
+    align-items: center;
     justify-content: space-between;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: var(--seventh-color);
-    width: 50%;
+    width: 440px;
+
 }
 
 .header__container-nav-ul-li:first-child {
@@ -227,7 +223,7 @@ li a:hover {
 .offer__axit-description {
     display: flex;
     flex-direction: column;
-    padding-right: 230px;
+    max-width: 515px;
 }
 
 .offer__axit-logo {
@@ -235,10 +231,10 @@ li a:hover {
 }
 
 .offer__axit-text {
-    font-family: Raleway, sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 300;
     font-size: 16px;
-    padding-top: 16px;
+
     padding-right: 50px;
     margin-bottom: 45px;
 }
@@ -520,7 +516,7 @@ li:first-child {
     width: 100%;
     border-top: 1px solid var(--secondary-color);
     background-color: var(--fourth-color);
-    font-family: Raleway, sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 90px;
     color: var(--secondary-color);
@@ -629,7 +625,8 @@ span {
     height: 315px;
 }
 .design_p {
-    font-family: 'Raleway Light', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
     color: var(--third-color);
     font-size: 16px;
 }
